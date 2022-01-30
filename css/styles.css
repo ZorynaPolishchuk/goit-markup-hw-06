@@ -364,6 +364,10 @@ body {
 .footer-container-end {
   align-self: baseline;
 }
+.footer-container-left {
+  flex-grow: 1;
+}
+
 .footer-container-right {
   padding-left: 70px;
 }
@@ -430,7 +434,6 @@ body {
   align-items: center;
 }
 .online-subscribe {
-  display: inline-block;
   width: 358px;
   height: 50px;
   border: 1px solid rgba(255, 255, 255, 0.3);
@@ -441,6 +444,7 @@ body {
   outline: none;
   padding: 15px;
   margin-right: 12px;
+  color: var(--primary-white-color);
 }
 .online-subscribe::placeholder {
   font-size: 16px;
@@ -453,7 +457,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 13px 28px;
+  padding: 10px 28px;
 }
 .submit-icon {
   margin-left: 10px;
@@ -722,6 +726,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
 }
 .policy-icon {
   fill: transparent;
